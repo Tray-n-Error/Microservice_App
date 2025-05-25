@@ -18,7 +18,7 @@ path = "src/health-check-service/main.rs"
 [dependencies]
 tonic = "0.9"
 prost = "0.11"
-tokio = { version = "1.27", features = ["macros", "rt-multi-thread", "time"] }
+tokio = { version = "1.43.1", features = ["macros", "rt-multi-thread", "time"] }
 uuid = { version = "1.2", features = ["v4"] }
 pbkdf2 = { version = "0.12", features = ["simple"] }
 rand_core = { version = "0.6", features = ["std"] }
